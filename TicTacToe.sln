@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Framework", "TicTacToe.Framework\TicTacToe.Framework.csproj", "{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Test", "TicTacToe.Test\TicTacToe.Test.csproj", "{D4466657-A227-4A26-AD61-00CE2DF34B15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +18,31 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Debug|x64.Build.0 = Debug|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Debug|x86.Build.0 = Debug|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Release|x64.ActiveCfg = Release|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Release|x64.Build.0 = Release|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Release|x86.ActiveCfg = Release|Any CPU
+		{976978CE-9FD3-4956-B4C0-653A3AFE8E8E}.Release|x86.Build.0 = Release|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Debug|x64.Build.0 = Debug|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Debug|x86.Build.0 = Debug|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Release|x64.ActiveCfg = Release|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Release|x64.Build.0 = Release|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Release|x86.ActiveCfg = Release|Any CPU
+		{D4466657-A227-4A26-AD61-00CE2DF34B15}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
