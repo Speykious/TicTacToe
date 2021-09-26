@@ -52,7 +52,7 @@ namespace TicTacToe.Framework
         {
             if (State != GameState.Playing)
                 return false;
-            
+
             if (!Board.PlaceMark(x, y, CurrentPlayer))
                 return false;
 
@@ -60,7 +60,7 @@ namespace TicTacToe.Framework
 
             if (State == GameState.Playing)
                 switchCurrentPlayer();
-            
+
             return true;
         }
 

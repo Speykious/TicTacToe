@@ -54,7 +54,7 @@ namespace TicTacToe.Framework
                 winner = lineWin(this[i, 0], this[i, 1], this[i, 2]);
                 if (winner != Mark._) return winner;
             }
-            
+
             winner = lineWin(this[0, 0], this[1, 1], this[2, 2]);
             if (winner != Mark._) return winner;
             winner = lineWin(this[2, 0], this[1, 1], this[0, 2]);
