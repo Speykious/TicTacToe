@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TicTacTosu.Resources\TicTacTosu.Resources.csproj" />
+    <ProjectReference Include="..\TicTacToe.Framework\TicTacToe.Framework.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="ppy.osu.Framework" Version="2021.830.0" />
+  </ItemGroup>
+</Project>
