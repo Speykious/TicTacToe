@@ -1,5 +1,6 @@
 using osu.Framework.Allocation;
 using osu.Framework.Graphics;
+using osu.Framework.Graphics.Audio;
 using osu.Framework.Graphics.Shapes;
 using osu.Framework.Graphics.Sprites;
 using osu.Framework.Screens;
@@ -9,6 +10,8 @@ namespace TicTacTosu.Game
 {
     public class MainScreen : Screen
     {
+        public DrawableSample ExampleSample { get; set; }
+
         [BackgroundDependencyLoader]
         private void load()
         {
@@ -16,7 +19,7 @@ namespace TicTacTosu.Game
             {
                 new Box
                 {
-                    Colour = Color4.Violet,
+                    Colour = new Color4(0x52, 0x1d, 0x3b, 0xff),
                     RelativeSizeAxes = Axes.Both,
                 },
                 new SpriteText
@@ -29,7 +32,9 @@ namespace TicTacTosu.Game
                 },
                 new SpinningBox
                 {
+                    RotationDuration = 10000,
                     Anchor = Anchor.Centre,
+                    HoverSample = ExampleSample
                 }
             };
         }
