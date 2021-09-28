@@ -1,7 +1,7 @@
 namespace TicTacToe.Framework
 {
     /// This class handles all the state and logic of a Tic Tac Toe board.
-    class Board
+    public class Board
     {
         private Mark[] board;
 
@@ -20,7 +20,7 @@ namespace TicTacToe.Framework
         public Mark this[int x, int y]
         {
             get => board[x + 3 * y];
-            set => board[x + 3 * y] = value;
+            private set => board[x + 3 * y] = value;
         }
 
         public bool IsValid(int x, int y) => x >= 0 && x < 3 && y >= 0 && y < 3;

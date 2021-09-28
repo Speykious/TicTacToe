@@ -2,9 +2,9 @@
 using System.Threading;
 using TicTacToe.Framework;
 
-namespace TicTacToe.Console
+namespace TicTacToe.Terminal
 {
-    class TicTacToeGame
+    public class TicTacToeGame
     {
         static Game Game;
 

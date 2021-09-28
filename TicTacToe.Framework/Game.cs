@@ -1,6 +1,6 @@
 namespace TicTacToe.Framework
 {
-    class Game
+    public class Game
     {
         public int CurrentTurn { get; private set; }
         public Mark CurrentPlayer { get; private set; }
