@@ -19,7 +19,7 @@ namespace TicTacToe.Terminal
             {
                 Play();
                 Thread.Sleep(1000);
-                Console.WriteLine("Want to do another game? (y/N) > ");
+                Console.WriteLine("Want to do another game? (Y/n) > ");
                 for (bool chosen = false; !chosen;)
                 {
                     var cki = Console.ReadKey();
